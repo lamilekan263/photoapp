@@ -1,0 +1,15 @@
+.card{
+    
+    margin:15px 0;
+    text-align: center;
+    width:40%;
+    height: 
+    @media(max-width: 750px){
+        width:100%;
+    }
+
+    p{
+        font-size: 18px;
+        font-family: monospace;
+    }
+}

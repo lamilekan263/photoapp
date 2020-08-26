@@ -1,0 +1,17 @@
+.card{
+    
+    margin-bottom:25px;
+    text-align: center;
+    width:40%;
+    
+    @media(max-width: 750px){
+        width:100%;
+    }
+    img{
+
+    }
+    p{
+        font-size: 18px;
+        font-family: monospace;
+    }
+}

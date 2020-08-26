@@ -1,0 +1,12 @@
+.container{
+    width:80%;
+    margin:0 auto;
+    overflow: hidden;
+
+    .image-display{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+}
