@@ -8,7 +8,7 @@ const Header = () =>{
         <div>
             <nav>
                 <div className="brand">
-                    <p>Photo Search App</p>
+                    
                 </div>
             </nav>
         </div>
