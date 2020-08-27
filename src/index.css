@@ -1,0 +1,8 @@
+body{
+    background-image: url('./components/bg.jpg') ;
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+    background-color:red;
+    background-position: center;
+}

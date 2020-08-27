@@ -2,5 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-
+    .bg-pic{
+        background-image: url('./') ;
+    }
 }

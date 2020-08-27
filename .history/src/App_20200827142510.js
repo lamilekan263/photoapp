@@ -6,8 +6,7 @@ import ImageList from './components/imageList/imageList'
 import SearchBar from './components/searchBar/searchBar'
 
 
-
-
+import './Ap'
 
 class App extends React.Component{
     state = {

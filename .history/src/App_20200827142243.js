@@ -6,8 +6,7 @@ import ImageList from './components/imageList/imageList'
 import SearchBar from './components/searchBar/searchBar'
 
 
-
-
+import './App.scss'
 
 class App extends React.Component{
     state = {
@@ -30,11 +29,11 @@ class App extends React.Component{
     }
     render(){
         return(
-           <div className="app">
+           <React.Fragment>
                <Header />
                 <SearchBar onSubmit = {this.submitHandler}/>
                 <ImageList images ={this.state.myImages} />
-           </div>
+           </React.Fragment>
         )
     }
 }

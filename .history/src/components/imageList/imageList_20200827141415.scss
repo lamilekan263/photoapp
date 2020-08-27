@@ -1,0 +1,11 @@
+.image-display{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    .bg-pic{
+        background-image: url('../bg.jpg') ;
+        height: 100vh;
+        width:100vw;
+        background-size: cover;
+    }
+}
